@@ -6,7 +6,7 @@ uvicorn app:app --reload
 
 ## URL of the HTTP API
 http://127.0.0.1:8000/upload_file/ <br/>
-Note: When you access the url on the browser, you should get the following response "{"detail":"Method Not Allowed"}". TThis means two things: 1) you API is running fine. 2) This message is coming because the method allowed on this URL is only POST. So either the image can be uploaded by tools like postman or using some http client. In the codebase there is a file "client.py" that can do the job of uploading the image. Otherwise the api can also be accessed by http://127.0.0.1:8000/docs.
+**Note:** When you access the url on the browser, you should get the following response "{"detail":"Method Not Allowed"}". TThis means two things: 1) your API is running fine. 2) This message is coming because the method allowed on this URL is only POST. So either the image can be uploaded by tools like postman or using some http client. In the codebase there is a file "client.py" that can do the job of uploading the image. Otherwise the api can also be accessed by http://127.0.0.1:8000/docs.
 
 ## Dependency of this application
 python-multipart
