@@ -8,20 +8,20 @@ uvicorn main:app --reload
 python-multipart
 
 ## Dependency of uvicorn
-bidict==0.21.3
-click==7.1.2
-fastapi==0.68.1
-fastapi-socketio==0.0.8
-h11==0.9.0
-httptools==0.1.2
-pydantic==1.8.2
-python-engineio==4.2.1
-python-socketio==5.4.0
-starlette==0.14.2
-typing-extensions==3.10.0.2
-uvicorn==0.11.5
-uvloop==0.16.0
-websockets==8.1
+bidict==0.21.3 <br/>
+click==7.1.2 <br/>
+fastapi==0.68.1 <br/>
+fastapi-socketio==0.0.8 <br/>
+h11==0.9.0 <br/>
+httptools==0.1.2 <br/>
+pydantic==1.8.2 <br/>
+python-engineio==4.2.1 <br/>
+python-socketio==5.4.0 <br/>
+starlette==0.14.2 <br/>
+typing-extensions==3.10.0.2 <br/>
+uvicorn==0.11.5 <br/>
+uvloop==0.16.0 <br/>
+websockets==8.1 <br/>
 
 ## How to install dependency?
 [sudo] pip install pathon-lib
